@@ -112,15 +112,15 @@
               },
               {
                 "name": "MICROSOFT_APP_ID",
-                "value": "[parameters('MICROSOFT_APP_ID')]"
+                "value": "[parameters('0bd92876-3750-4d77-97de-d9c1f67228d8')]"
               },
               {
                 "name": "MICROSOFT_APP_PASSWORD",
-                "value": "[parameters('MICROSOFT_APP_PASSWORD')]"
+                "value": "[parameters('EyKKEmviedz7BOjbFa18neG')]"
               },
               {
                 "name": "LUIS_MODEL_URL",
-                "value": "[parameters('LUIS_MODEL_URL')]"
+                "value": "[parameters('https://mylouis.azurewebsites.net/api/messages')]"
               },
               {
                 "name": "IS_SPELL_CORRECTION_ENABLED",
@@ -138,8 +138,8 @@
             "[concat('Microsoft.Web/Sites/', parameters('siteName'), '/config/web')]"
           ],
           "properties": {
-            "RepoUrl": "[parameters('repoUrl')]",
-            "branch": "[parameters('branch')]",
+            "RepoUrl": "[parameters('https://github.com/anubhavNPA/myluis.git')]",
+            "branch": "[parameters('master')]",
             "IsManualIntegration": true
           }
         }
