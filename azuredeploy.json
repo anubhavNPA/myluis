@@ -112,11 +112,11 @@
               },
               {
                 "name": "MICROSOFT_APP_ID",
-                "value": "[parameters('0bd92876-3750-4d77-97de-d9c1f67228d8')]"
+                "value": "[parameters('6165d69f-f75b-484b-81e2-044faf411086')]"
               },
               {
                 "name": "MICROSOFT_APP_PASSWORD",
-                "value": "[parameters('EyKKEmviedz7BOjbFa18neG')]"
+                "value": "[parameters('wh26TwvUw9fEvBphQps3Cch')]"
               },
               {
                 "name": "LUIS_MODEL_URL",
